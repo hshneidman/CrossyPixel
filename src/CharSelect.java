@@ -12,6 +12,7 @@ public class CharSelect {
     public CharSelect(int mxpos, int mypos, int mwidth, int mheight, int mlevelunlock, boolean munlocked){
         height = mheight;
         width = mwidth;
+
         xpos = mxpos;
         ypos = mypos;
         rec = new Rectangle(xpos,ypos,width,height);
